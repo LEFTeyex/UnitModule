@@ -1,8 +1,30 @@
-# <center> UnitModule
+<div align="center"> 
 
-### Installation
+## UnitModule: A Lightweight Joint Image Enhancement Module for Underwater Object Detection
 
-This project is based on [MMDetection](https://github.com/open-mmlab/mmdetection/tree/main).
+</div>
+
+<p align="center">
+
+<a href="https://doi.org/10.1016/j.patcog.2024.110435">
+    <img src="https://img.shields.io/badge/DOI-10.1016/j.patcog.2024.110435-blue" /></a>
+
+<a href="https://arxiv.org/pdf/2309.04708.pdf">
+    <img src="https://img.shields.io/badge/arXiv-2309.04708-rgb(179,27,27)" /></a>
+
+<a href="https://github.com/LEFTeyex/UnitModule/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/LEFTeyex/UnitModule" /></a>
+
+</p>
+
+## Introduction
+
+The official implementation of **UnitModule: A Lightweight Joint Image Enhancement Module for Underwater Object
+Detection**.
+
+## Installation
+
+This project is based on [MMDetection](https://github.com/open-mmlab/mmdetection).
 
 - Python 3.8
 - Pytorch 1.11.0+cu113
@@ -39,7 +61,7 @@ mim install mmyolo==0.5.0
 pip install -r requirements.txt
 ```
 
-### Dataset
+## Dataset
 
 The data structure DUO looks like below:
 
@@ -56,6 +78,8 @@ data
 │   │   ├── test
 ```
 
+## Usage
+
 ### Training
 
 ```bash
@@ -66,4 +90,17 @@ bash tools/dist_train.sh configs/yolox/yolox_s_100e_duo.py 2
 
 ```bash
 bash tools/dist_test.sh configs/yolox/yolox_s_100e_duo.py yolox_s_100e_duo.pth 2
+```
+
+## Cite
+
+```
+@article{liu2024unitmodule,
+  title={UnitModule: A Lightweight Joint Image Enhancement Module for Underwater Object Detection},
+  author={Liu, Zhuoyan and Wang, Bo and Li, Ye and He, Jiaxian and Li, Yunfeng},
+  journal={Pattern Recognition},
+  volume={151},
+  pages={110435},
+  year={2024},
+}
 ```
