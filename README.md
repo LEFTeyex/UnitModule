@@ -102,5 +102,6 @@ bash tools/dist_test.sh configs/yolox/yolox_s_100e_duo.py yolox_s_100e_duo.pth 2
   volume={151},
   pages={110435},
   year={2024},
+  doi={10.1016/j.patcog.2024.110435},
 }
 ```
