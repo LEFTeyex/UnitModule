@@ -27,7 +27,7 @@ Detection**.
 This project is based on [MMDetection](https://github.com/open-mmlab/mmdetection).
 
 - Python 3.8
-- Pytorch 1.11.0+cu113
+- PyTorch 1.11.0+cu113
 
 **Step 1.** Create a conda virtual environment and activate it.
 
